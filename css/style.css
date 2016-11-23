@@ -218,6 +218,11 @@ h4 {
 	color:white;
 }
 
+#footer #copyrights {
+	font-size: 12px;
+	color: #F4F4F4;
+}
+
 #footer ul li a i {
 	color : white;
 }
