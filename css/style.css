@@ -19,29 +19,33 @@ body strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:white;
-	font-family: 'Open Sans';
+	font-family: 'Montserrat';
 	font-size:30px;
 	font-height: 400;
-	font-shadow:2px 2px 5px #555;
+	text-shadow:2px 2px 5px #000;
 	padding-top: 275px;
 }
 
 #titre {
 	font-family: 'Montserrat';
-	font-size: 92px;
-	color: #FFFF00;
+	font-size: 80px;
+	color: #FFF;
+}
+
+#titre strong {
+	color:#FFFF00;
 }
 
 #dispo {
 	padding-top:230px;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1060px) {
   #titre {
-    font-size: 62px;
+    font-size: 50px;
   }
   #slogan {
-    font-size: 25px; 
+    font-size: 20px; 
   }
   #sous-titre {
   	font-size: 42px;
@@ -56,10 +60,10 @@ body strong {
 
 @media (max-width: 510px) {
 	#titre {
-		font-size:42px;
+		font-size:40px;
 	}
 	#slogan {
-		font-size:18px;
+		font-size:16px;
 	}
 	#sous-titre {
 		font-size: 32px;
@@ -183,7 +187,7 @@ h4 {
 
 #conditions h2 {
 	color:#FFFF00;
-	font-shadow:2px 2px 5px #555;
+	text-shadow:2px 2px 5px #000;
 }
 
 #conditions p {
